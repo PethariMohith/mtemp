@@ -1,1 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+body{font-family: 'Poppins', sans-serif;margin:0px;background:#f9f9f9}
+.header{background: linear-gradient(170deg, #002677, #005bc4);
+    color: white;
+    width: auto;
+    padding: 15px;
+    font-size: x-large;
+	box-shadow: 0 4px 8px 0 rgb(0 0 0 / 7%), 0 6px 5px 0 rgb(0 0 0 / 13%);}
+.intro{width: auto;
+    margin: 20px;
+    border-radius: 11px;
+    background: #fff;
+    padding: 17px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 7%), 0 6px 20px 0 rgb(0 0 0 / 6%);}
+.dashboard{width: auto;
+    margin: 20px 10px;
+    border-radius: 11px;
+	display: flex;
+    justify-content: center;
+    place-content: space-evenly;
+}
+.dotline{text-align: center;
+    font-size: 5px;
+    letter-spacing: 6px;
+    color: #aaaaaa61;}
+.dashR{color: white;
+    background: linear-gradient(357deg, #e91e63, #ec407a);
+    width: -webkit-fill-available;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    font-size: larger;
+	margin-left: 10px;
+    margin-right: 10px;
+	box-shadow:0 4px 8px 0 rgb(0 0 0 / 7%), 0 6px 22px 0 rgb(0 0 0 / 18%);
+}
+.dashG{color: white;
+    background: linear-gradient(357deg, #43a047, #8bc34a);
+    width: -webkit-fill-available;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    font-size: larger;
+	margin-left: 10px;
+    margin-right: 10px;
+	box-shadow:0 4px 8px 0 rgb(0 0 0 / 7%), 0 6px 22px 0 rgb(0 0 0 / 18%);
+	}
+.dashO{color: white;
+    background: linear-gradient(357deg, #fb8c00, #ffb300);
+    width: -webkit-fill-available;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    font-size: larger;margin-left: 10px;
+    margin-right: 10px;
+	box-shadow:0 4px 8px 0 rgb(0 0 0 / 7%), 0 6px 22px 0 rgb(0 0 0 / 18%);
+	}
+.tablex{box-shadow: 0 4px 8px 0 rgb(0 0 0 / 7%), 0 6px 20px 0 rgb(0 0 0 / 6%);margin:35px 20px;overflow-x: auto;}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+th{color:white;background:linear-gradient(170deg, #002677, #005bc4)}
+
+tr:nth-child(even) {background-color: #f6f6f6}
+tr:nth-child(odd) {background-color: #ffffff}
+.credits{text-align:left;padding: 5px 23px;background:#eee;color:#002677;}
